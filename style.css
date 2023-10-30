@@ -1,0 +1,112 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+
+body {
+    background-color: #FFF;
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.input-texto {
+    margin-top: 90px;
+    background-color: aqua;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("imagenes/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 28px;
+    background-size: 300px;
+
+}
+
+.copiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: darkblue;
+    color:white;
+}
+
+.desencriptar {
+    margin-left: 30px;
+}
+
+.informacion {
+    font-size: 15px;
+}
+.pie{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 80px;
+    margin: left 60px;
+    
+}
+
+/*responsive
+@media screen and (min-width:768px){
+        main {
+        flex-direction:column;
+        margin:auto;
+        }     
+   } 
+   @media screen and (min-width:768px){
+    .input-texto {
+        margin-left: 25px;
+        background-color: blueviolet;
+    }
+    }
+   @media screen and (min-width:768px){
+        .encriptar {
+        margin:auto  
+        }
+    }
+    @media screen and (min-width:768px){
+        .desencriptar{
+         margin:auto
+        }
+    }
+    @media screen and (min-width:768px){
+        .informacion {
+        padding-left:200px;
+        }
+    }
+    @media screen and (min-width:768px){
+        .mensaje{
+        position: relative;
+        margin-top: 80px;
+        margin-left: 150px;
+        background-image: url("imagenes/muñeco.png");
+        background-repeat: no-repeat;
+        }
+    }
+    @media screen and (min-width:768px){
+        .copiar {
+        position: relative;
+        margin-top: 5px;
+        margin-left: 250px;
+         }   
+    }*/
